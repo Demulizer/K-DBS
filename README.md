@@ -1,2 +1,1 @@
-# Poetry
-Code is poetry!
+Hello!
