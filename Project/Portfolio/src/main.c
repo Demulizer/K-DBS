@@ -1,11 +1,8 @@
-#include <stdio.h>
+#include "../mod/req.k"
+#include "../mod/fmt.h"
 
-#define KDBS_USE                    \
-"\n:: NOT ENOUGH ARGUMENTS ::"      \
-"\n   ./K-DBS [-config.*-]\n"
 
 int main(int argc, char** argv[]) {
-    argc < 2 ? puts(KDBS_USE) : 0;
-
+    K_(ERROR(0));
     return 0;
 }
